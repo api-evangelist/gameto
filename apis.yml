@@ -1,8 +1,26 @@
 aid: gameto
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gameto.png
 name: Gameto
-description: 'Gameto is a company surfaced as a portfolio company of insight-partners and added to the
-  API Evangelist network as a stub for enrichment. Sector: biotech-therapeutics. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Gameto is a female-led clinical-stage biotechnology company redefining women''s health
+  across the reproductive lifespan. Using proprietary induced pluripotent stem cell (iPSC) engineering,
+  Gameto develops ovarian cell lines that mimic the biology of the female reproductive system. Its lead
+  product, Fertilo, is an engineered line of ovarian support cells that mature immature eggs outside the
+  body to reduce the hormonal burden of IVF and egg freezing, and is in a Phase 3 clinical trial (FIRST).
+  Additional programs include Deovo, an organoid of the female reproductive system for drug discovery,
+  and Ameno, a cell-based therapeutic targeting menopause and primary ovarian insufficiency. Gameto is
+  backed by Insight Partners. This is a company profile in the API Evangelist network; Gameto publishes
+  no public developer API.'
 url: https://raw.githubusercontent.com/api-evangelist/gameto/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Biotech Therapeutics
+- Fertility
+- Reproductive Health
+- Women's Health
+- IVF
+- Stem Cells
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,24 @@ maintainers:
 common:
 - type: Website
   url: https://www.gametogen.com/
+- type: Blog
+  url: https://www.gametogen.com/newsroom/
+- type: Support
+  url: https://www.gametogen.com/contact/
+- type: PrivacyPolicy
+  url: https://www.gametogen.com/privacy-policy/
+- type: TermsOfService
+  url: https://www.gametogen.com/terms-of-service/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/gameto-inc
+- type: Crunchbase
+  url: https://www.crunchbase.com/organization/gameto
+- type: LLMsTxt
+  url: llms/gameto-llms.txt
+- type: DomainSecurity
+  url: security/gameto-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
